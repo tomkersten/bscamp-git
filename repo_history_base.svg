@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2915"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2942"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2970"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="356.66006"
+     inkscape:cy="195.64807"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1361"
+     inkscape:window-height="938"
+     inkscape:window-x="381"
+     inkscape:window-y="54"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2982">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         ry="14.509853"
+         y="67.927124"
+         x="131.29164"
+         height="258.43036"
+         width="551.18073"
+         id="rect2816"
+         style="font-size:18px;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.5410434;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         transform="translate(20,12)"
+         id="g2842">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+           x="150.46956"
+           y="105.52988"
+           id="text2818"><tspan
+             sodipodi:role="line"
+             id="tspan2820"
+             x="150.46956"
+             y="105.52988"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri">SHA1:        406f42b33de76c99b511097df6f923efaa3a4099</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+           x="151.04085"
+           y="125.40872"
+           id="text2822"><tspan
+             sodipodi:role="line"
+             x="151.04085"
+             y="125.40872"
+             id="tspan2826">Author:    Some Name &lt;someone@email.com&gt;</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+           x="150.5135"
+           y="144.54936"
+           id="text2830"><tspan
+             sodipodi:role="line"
+             id="tspan2832"
+             x="150.5135"
+             y="144.54936">Time:        Sat Apr 24 01:02:31 2010 -0500</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+           x="150.06526"
+           y="164.81934"
+           id="text2834"><tspan
+             sodipodi:role="line"
+             id="tspan2836"
+             x="150.06526"
+             y="164.81934">Message: Initial commit</tspan></text>
+      </g>
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         ry="10.86401"
+         y="194.45338"
+         x="172.8589"
+         height="114.90331"
+         width="492.61261"
+         id="rect2856"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74018151;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         id="text2838"
+         y="218.81934"
+         x="187.91801"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="218.81934"
+           x="187.91801"
+           id="tspan2840"
+           sodipodi:role="line">TREE</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         id="text2852"
+         y="93.246658"
+         x="147.39876"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="93.246658"
+           x="147.39876"
+           id="tspan2854"
+           sodipodi:role="line">COMMIT  #1</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         id="text2858"
+         y="238.69263"
+         x="206.29565"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="238.69263"
+           x="206.29565"
+           id="tspan2860"
+           sodipodi:role="line">SHA1: e406fe0c228f10fea0be4af613b7ac2cc1704def</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/commit_detail_visual.png"
+         id="text2862"
+         y="257.02304"
+         x="209.83852"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           style="font-size:12px"
+           y="257.02304"
+           x="209.83852"
+           id="tspan2864"
+           sodipodi:role="line">040000   tree    10c195f4f039d79a0441fefb0e63e07d227edb89      directory_1</tspan><tspan
+           style="font-size:12px"
+           id="tspan2866"
+           y="272.02304"
+           x="209.83852"
+           sodipodi:role="line">040000   tree    10c195f4f039d79a0441fefb0e63e07d227edb89      directory_2</tspan><tspan
+           style="font-size:12px"
+           id="tspan2868"
+           y="287.02304"
+           x="209.83852"
+           sodipodi:role="line">100644   blob    d3f48b93b168b70f7bf91e27e6bbf0ef97d52821     README</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.06531274;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3037"
+       width="635.59186"
+       height="269.14215"
+       x="42.000359"
+       y="398.31284"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3005"
+       transform="translate(-65.607131,44.56646)"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0.09658813,-2.4620056)"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path2976"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text2978"
+         y="425.91745"
+         x="230.31056"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="425.91745"
+           x="230.31056"
+           id="tspan2980"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       transform="translate(18.959332,44.56646)"
+       id="g3029"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="arc"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3031"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(0.09658813,-2.4620056)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="230.31056"
+         y="425.91745"
+         id="text3033"><tspan
+           sodipodi:role="line"
+           id="tspan3035"
+           x="230.31056"
+           y="425.91745">2</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.46087,462.76715 39.9205,0"
+       id="path3041"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3072">
+      <path
+         transform="translate(77.05592,100.10445)"
+         d="m 254.87702,420.28766 a 17.913044,17.913044 0 1 1 -35.82609,0 17.913044,17.913044 0 1 1 35.82609,0 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path3061"
+         style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3063"
+         y="528.48389"
+         x="307.2699"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="528.48389"
+           x="307.2699"
+           id="tspan3065"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       id="path3067"
+       d="m 269.30709,478.65312 28.22806,28.22806"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       id="g3077"
+       transform="translate(114.95933,44.56646)">
+      <path
+         transform="translate(0.09658813,-2.4620056)"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path3079"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3081"
+         y="425.91745"
+         x="230.31056"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="425.91745"
+           x="230.31056"
+           id="tspan3083"
+           sodipodi:role="line">4</tspan></text>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       id="path3085"
+       d="m 277.61096,462.76715 51.90355,0"
+       style="fill:none;stroke:#000000;stroke-width:1.14025128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.81861484px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 336.49111,520.39211 132.03145,0"
+       id="path3087"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3089"
+       transform="translate(176,0)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3091"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(77.05592,100.10445)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="307.2699"
+         y="528.48389"
+         id="text3093"><tspan
+           sodipodi:role="line"
+           id="tspan3095"
+           x="307.2699"
+           y="528.48389">6</tspan></text>
+    </g>
+    <g
+       transform="translate(174.95933,44.56646)"
+       id="g3097"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="arc"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3099"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(0.09658813,-2.4620056)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="230.31056"
+         y="425.91745"
+         id="text3101"><tspan
+           sodipodi:role="line"
+           id="tspan3103"
+           x="230.31056"
+           y="425.91745">5</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.64963734px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 373.22589,462.76715 16.8476,0"
+       id="path3105"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+       x="49.132919"
+       y="473.00317"
+       id="text3107"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3109"
+         x="49.132919"
+         y="473.00317">master</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+       x="145.27205"
+       y="529.30133"
+       id="text3111"><tspan
+         sodipodi:role="line"
+         id="tspan3113"
+         x="145.27205"
+         y="529.30133">new_feature</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       y="738.31287"
+       x="42.000359"
+       height="269.14215"
+       width="635.59186"
+       id="rect3455"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.06531274;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       transform="translate(-65.607131,384.56646)"
+       id="g3457">
+      <path
+         sodipodi:type="arc"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3459"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(0.09658813,-2.4620056)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="230.31056"
+         y="425.91745"
+         id="text3461"><tspan
+           sodipodi:role="line"
+           id="tspan3463"
+           x="230.31056"
+           y="425.91745">1</tspan></text>
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="g3465"
+       transform="translate(18.959332,384.56646)">
+      <path
+         transform="translate(0.09658813,-2.4620056)"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path3467"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3469"
+         y="425.91745"
+         x="230.31056"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="425.91745"
+           x="230.31056"
+           id="tspan3471"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="path3473"
+       d="m 193.46087,802.76715 39.9205,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       id="g3475"
+       transform="translate(160,340)"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3477"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(77.05592,100.10445)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="307.2699"
+         y="528.48389"
+         id="text3479"><tspan
+           sodipodi:role="line"
+           id="tspan3481"
+           x="307.2699"
+           y="528.48389">6</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 429.30709,818.65312 28.22806,28.22806"
+       id="path3483"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(114.95933,384.56646)"
+       id="g3485"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="arc"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3487"
+         sodipodi:cx="236.96397"
+         sodipodi:cy="420.28766"
+         sodipodi:rx="17.913044"
+         sodipodi:ry="17.913044"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         transform="translate(0.09658813,-2.4620056)" />
+      <text
+         xml:space="preserve"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         x="230.31056"
+         y="425.91745"
+         id="text3489"><tspan
+           sodipodi:role="line"
+           id="tspan3491"
+           x="230.31056"
+           y="425.91745">4</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.14025128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 277.61096,802.76715 51.90355,0"
+       id="path3493"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="path3495"
+       d="m 495.82339,860.39211 35.07904,0"
+       style="fill:none;stroke:#000000;stroke-width:0.93740201px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       transform="translate(236,340)"
+       id="g3497"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(77.05592,100.10445)"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path3499"
+         style="fill:#ffccaa;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3501"
+         y="528.48389"
+         x="307.2699"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="528.48389"
+           x="307.2699"
+           id="tspan3503"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="g3505"
+       transform="translate(174.95933,384.56646)">
+      <path
+         transform="translate(0.09658813,-2.4620056)"
+         d="m 254.87702,420.28766 c 0,9.8931 -8.01994,17.91304 -17.91305,17.91304 -9.8931,0 -17.91304,-8.01994 -17.91304,-17.91304 0,-9.8931 8.01994,-17.91305 17.91304,-17.91305 9.89311,0 17.91305,8.01995 17.91305,17.91305 z"
+         sodipodi:ry="17.913044"
+         sodipodi:rx="17.913044"
+         sodipodi:cy="420.28766"
+         sodipodi:cx="236.96397"
+         id="path3507"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3509"
+         y="425.91745"
+         x="230.31056"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+         xml:space="preserve"><tspan
+           y="425.91745"
+           x="230.31056"
+           id="tspan3511"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="path3513"
+       d="m 373.22589,802.76715 16.8476,0"
+       style="fill:none;stroke:#000000;stroke-width:0.64963734px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       id="text3515"
+       y="813.00317"
+       x="49.132919"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+       xml:space="preserve"><tspan
+         y="813.00317"
+         x="49.132919"
+         id="tspan3517"
+         sodipodi:role="line">master</tspan></text>
+    <text
+       id="text3519"
+       y="869.30133"
+       x="305.27203"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Cambria;-inkscape-font-specification:Cambria"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/tom/projects/presentations/bscamp_git/merge_and_rebase/build_repo_images/rebased_technically.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="869.30133"
+         x="305.27203"
+         id="tspan3521"
+         sodipodi:role="line"
+         style="font-weight:bold;-inkscape-font-specification:Bitstream Vera Sans Bold">new_feature*</tspan></text>
+  </g>
+</svg>

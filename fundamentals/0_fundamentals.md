@@ -16,7 +16,7 @@
 ## [http://github.com/tomkersten/bscamp-git](http://github.com/tomkersten/bscamp-git) ##
 
 !SLIDE! bullets incremental
-# topis of interest
+# topics of interest
 * merge vs. rebase
 * collaboration
 * svn integration

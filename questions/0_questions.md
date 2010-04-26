@@ -11,3 +11,6 @@ Flux Capacitor: [http://bit.ly/c1FMNt](http://bit.ly/c1FMNt)
 
 <span style="font-size: 1.0em; font-weight: bold;">Reference</span><br/>
 [Git from the Bottom Up PDF, John Wiegly](http://bit.ly/8RBzB)
+
+!SLIDE center
+# thanks
