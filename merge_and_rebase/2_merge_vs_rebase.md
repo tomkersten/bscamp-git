@@ -57,11 +57,17 @@
     388d29fe0ee5189be2...   master branch: Added directory_3
     406f42b33de76c99b5...   master branch: Initial commit
 
+!SLIDE center smbullets incremental
+![merged](build_repo_images/merged.png)
+## like a zipper
+* kind of...right?
+* (humor me)
+
 !SLIDE center
 #  now...rebasing
 
 !SLIDE center
-## back on 'new_feature' branch
+## assume we're on 'new_feature' branch
 ![on master](build_repo_images/on_new_feature.png)
 
 !SLIDE commandline
@@ -124,9 +130,9 @@
 ## branch off of master
 ### $ git checkout -b new_feature_branch
 
-!SLIDE center commandline
+!SLIDE smbullets incremental
 # commit, commit, commit
-### (on new_feature_branch)
+* (on new_feature_branch)
 
 !SLIDE center commandline
 ## frequently switch to master, pull in recent changes
@@ -139,22 +145,21 @@
 ### $ git rebase master
 
 !SLIDE center smbullets incremental
-## when feature is completed
+# when feature is complete
 ### repeat the pull/rebase process
 
 !SLIDE center
-## merge your changes into master
+# merge changes into master
 ### $ git checkout master
 ### $ git merge new_feature_branch
 
 !SLIDE center smbullets incremental
 # if you have conflicts...
-### edit the conflicting files and do this:
+* (during the rebase process)
+
+!SLIDE center smbullets incremental
+# edit conflicting files and run:
 ### $ git add [conflicting_file_name]
 ### $ git rebase --continue
-* (this should be rare if you pull often)
+* (this should be pretty easy/rare if you pull often)
 * (...like [roy](http://twitter.com/roykolak))
-
-!SLIDE
-# questions?
-## (on merge vs. rebase?)

@@ -1,5 +1,10 @@
-!SLIDE
+!SLIDE smbullets incremental
 # merge vs. rebase
+* they accomplish the same thing
+
+!SLIDE smbullets incremental
+# help you share your codes
+* (how they do it differs though)
 
 !SLIDE
 # i rebase all the time

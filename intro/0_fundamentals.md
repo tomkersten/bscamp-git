@@ -16,11 +16,16 @@
 ## [http://github.com/tomkersten/bscamp-git](http://github.com/tomkersten/bscamp-git) ##
 
 !SLIDE! bullets incremental
-# topics of interest
+# tonight's topic
 * merge vs. rebase
-* collaboration
-* svn integration
-* <span style="color: #777">quick tips <span style="font-size: 0.5em">[time permitting]</span></span>
+
+!SLIDE smbullets incremental
+# i cut out:
+### collaboration
+### svn integration
+### <span style="color: #777">quick tips</span>
+* (we can hit those another time)
+* (but feel free to ask questions about anything)
 
 !SLIDE! center
 # what do we know about git?
@@ -30,6 +35,9 @@
 
 !SLIDE! center
 # fast
+
+!SLIDE! center
+# small repository size
 
 !SLIDE! center
 # local branches
@@ -46,12 +54,7 @@
 # but, why?
 
 !SLIDE center
-# i tried it a few times
-## it felt like merging to me
-
-!SLIDE
-# then one time i did it
-### and completely eff'd myself
+# my rebase story
 
 !SLIDE
 # it's still kind of a blur
@@ -62,4 +65,4 @@
 ### i dug in a bit
 
 !SLIDE center
-# so, let's slay that dragon first
+# here's my perspective

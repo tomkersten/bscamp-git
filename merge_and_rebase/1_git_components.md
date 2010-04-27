@@ -10,10 +10,11 @@
 !SLIDE
 # blobs, trees, commits
 
-!SLIDE
+!SLIDE smbullets incremental
 # blobs
 ## SHA1 hash of file size & contents
-### same content == same blob
+### same content == same sha1 == same blob
+* (always)
 
 !SLIDE
 # example
@@ -45,7 +46,7 @@
 # blobs
 ## takeaway:
 * sha1 of file content
-* therefore, blobs can have same sha1
+* duplicate file contents will have same sha1
 * (that's important)
 
 
@@ -56,12 +57,12 @@
 !SLIDE
 # trees
 ## think of them as directories
-### (collection of multiple sub-nodes)
+### (collectors of sub-nodes)
 
-!SLIDE
+!SLIDE smbullets incremental
 # each commit has one
-### composed of either sub-trees or blobs
-### (id is collective sha1 of sub-node sha1s & filenames)
+### composed of either blobs or other trees
+* (sha1 is computed from sub-node sha1s & filenames)
 
 !SLIDE commandline incremental small
 # in our example
@@ -113,7 +114,7 @@
 # tree takeaways
 * basically directories...contents can be other trees or blobs
 * sha1s computed off of sub-components' sha1s/names
-* difference in tree sha1s means they have different content
+* difference in tree sha1s means they have different content (or files)
 * (that last one is important)
 
 !SLIDE incremental bullets
@@ -123,7 +124,7 @@
 !SLIDE bullets incremental
 ## commits are composed of:
 * the (single) top-level tree sha1
-* the name/email of the committer
+* the name/email of the author
 * the time
 * <span style="color: #777; font-size: 0.7em;">the 'parent' & 'committer' may play in as well...not sure</span>
 * <span style="color: #777; font-size: 0.7em;">(it really doesn't matter)</span>
