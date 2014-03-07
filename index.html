@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Presentation</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+
+  <link rel="stylesheet" href=".//css/reset.css" type="text/css"/>
+
+  <link type="text/css" href=".//css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href=".//css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href=".//css/sh_style.css" rel="stylesheet" />
+  <link type="text/css" href=".//css/tipsy.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href=".//css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src=".//js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src=".//js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src=".//js/jquery-print.js"></script>
+  <script type="text/javascript" src=".//js/jquery.batchImageLoad.js"></script>
+  <script type="text/javascript" src=".//js/jquery.parsequery.min.js"></script>
+  <script type="text/javascript" src=".//js/jquery.doubletap-0.1.js"></script>
+  <script type="text/javascript" src=".//js/jquery.tipsy.js"></script>
+
+  <script type="text/javascript" src=".//js/fg.menu.js"></script>
+  <script type="text/javascript" src=".//js/showoff.js"></script>
+  <script type="text/javascript" src=".//js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src=".//js/sh_main.min.js"></script>
+  <script type="text/javascript" src=".//js/core.js"></script>
+  <script type="text/javascript" src=".//js/showoffcore.js"></script>
+  <script type="text/javascript" src=".//js/coffee-script.js"></script>
+
+  
+    
+  
+
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+<a tabindex="1" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="stylemenu"><span class="ui-icon ui-icon-triangle-1-s"></span>styles</a>
+<div id="stylepicker" class="hidden"></div>
+
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">g</td><td>toggle follow</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+    <tr><td class="key">P</td><td>toggle pause</td></tr>
+    <tr><td class="key">s</td><td>choose style</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso"><center>loading presentation...</center></div>
+<div id="footer">
+  <span id="followMode"></span>
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+  <span id="slideFilename"></span>
+  <img id="disconnected" src="/css/disconnected.png" />
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div id="intro/0_fundamentals" class="slide center" data-transition="none"><div class="content center" ref="intro/0_fundamentals/1">
+<h1>[witty title here]</h1>
+
+<h3>tom kersten</h3>
+
+<h3><a href="http://twitter.com/tomkersten">@tomkersten</a></h3></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/2">
+<h1>follow along</h1>
+
+<h3>(or look ahead...cheaters)</h3>
+
+<h2><a href="http://bscamp-git.heroku.com">http://bscamp-git.heroku.com</a></h2></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/3">
+<h1>or, even better</h1>
+
+<h3>fix my mistakes, reuse, refer</h3>
+
+<h2><a href="http://github.com/tomkersten/bscamp-git">http://github.com/tomkersten/bscamp-git</a></h2></div>
+</div><div id="intro/0_fundamentals" class="slide ! bullets incremental" data-transition="none"><div class="content ! bullets incremental" ref="intro/0_fundamentals/4">
+<h1>tonight's topic</h1>
+
+<ul>
+<li>merge vs. rebase</li>
+</ul></div>
+</div><div id="intro/0_fundamentals" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="intro/0_fundamentals/5">
+<h1>i cut out:</h1>
+
+<h3>collaboration</h3>
+
+<h3>svn integration</h3>
+
+<h3><span style="color: #777">quick tips</span></h3>
+
+<ul>
+<li>(we can hit those another time)</li>
+<li>(but feel free to ask questions about anything)</li>
+</ul></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/6">
+<h1>what do we know about git?</h1></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/7">
+<h1>distributed</h1></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/8">
+<h1>fast</h1></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/9">
+<h1>small repository size</h1></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/10">
+<h1>local branches</h1></div>
+</div><div id="intro/0_fundamentals" class="slide ! center" data-transition="none"><div class="content ! center" ref="intro/0_fundamentals/11">
+<h1>great at merging</h1>
+
+<h3>(you merge more than you think)</h3></div>
+</div><div id="intro/0_fundamentals" class="slide center" data-transition="none"><div class="content center" ref="intro/0_fundamentals/12">
+<h1>and...rebasing is scary</h1>
+
+<h3>(at least it was to me)</h3></div>
+</div><div id="intro/0_fundamentals" class="slide center" data-transition="none"><div class="content center" ref="intro/0_fundamentals/13">
+<h1>but, why?</h1></div>
+</div><div id="intro/0_fundamentals" class="slide center" data-transition="none"><div class="content center" ref="intro/0_fundamentals/14">
+<h1>my rebase story</h1></div>
+</div><div id="intro/0_fundamentals" class="slide " data-transition="none"><div class="content " ref="intro/0_fundamentals/15">
+<h1>it's still kind of a blur</h1>
+
+<h3>(something about missing commits, 'no-branch', and swearing)</h3></div>
+</div><div id="intro/0_fundamentals" class="slide " data-transition="none"><div class="content " ref="intro/0_fundamentals/16">
+<h1>after licking my wounds</h1>
+
+<h3>i dug in a bit</h3></div>
+</div><div id="intro/0_fundamentals" class="slide center" data-transition="none"><div class="content center" ref="intro/0_fundamentals/17">
+<h1>here's my perspective</h1></div>
+</div><div id="merge_and_rebase/0_intro" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/0_intro/1">
+<h1>merge vs. rebase</h1>
+
+<ul>
+<li>they accomplish the same thing</li>
+</ul></div>
+</div><div id="merge_and_rebase/0_intro" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/0_intro/2">
+<h1>help you share your codes</h1>
+
+<ul>
+<li>(how they do it differs though)</li>
+</ul></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/3">
+<h1>i rebase all the time</h1>
+
+<h2>unless i have to merge</h2></div>
+</div><div id="merge_and_rebase/0_intro" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/0_intro/4">
+<h1>which means i don't pull</h1>
+
+<ul>
+<li>(that's not true, but i don't nearly as often as <a href="http://twitter.com/roykolak">roy</a> does)</li>
+</ul></div>
+</div><div id="merge_and_rebase/0_intro" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/0_intro/5">
+<h1>sexy is...</h1>
+
+<p><img src="./file/merge_and_rebase/clean_and_clear.jpg" alt="clean and clear"/></p>
+
+<h2>commit logs</h2></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/6">
+<h1>merges don't give you either</h1></div>
+</div><div id="merge_and_rebase/0_intro" class="slide commandline" data-transition="none"><div class="content commandline" ref="merge_and_rebase/0_intro/7">
+<h1>merge</h1>
+
+<pre><code><code class="command">$ git log</code>
+<code class="result">commit 833328djkslj35f58edc2c8ef3f72e21659ae976
+Merge: c6ff987 5fc7389
+Author: Another Person &lt;some_dude@somewhere.com&gt;
+Date:   Thu Apr 22 14:20:15 2010 -0500
+
+    Merge branch 'some_branch'
+
+    * some_branch:
+    Minor variable name change
+    Removing duplication
+    Corrected examples
+    Updated this other thing
+    Adding files
+
+    Conflicts:
+    spec/one_of_the_specs.rb
+</code></code></pre></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/8">
+<h1>vs.</h1></div>
+</div><div id="merge_and_rebase/0_intro" class="slide commandline" data-transition="none">
+  <div class="content commandline" ref="merge_and_rebase/0_intro/9">
+<h1>normal</h1>
+
+<p><br><br><br>
+    $ git log
+    commit 63822392389sjdslsjkl54fa65b8a8a363a17e35
+    Author: Some Person <a href="mailto:someone@somedomain.com">someone@somedomain.com</a>
+    Date:   Mon Jun 29 16:21:36 2009 -0400</br>
+
+<pre><code>    Fixing the coverage task for the current setup
+</code></pre></br>
+</br>
+</p></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/10">
+<h1>merge</h1>
+
+<h2>is like a zipper</h2></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/11">
+<p><img src="./file/merge_and_rebase/zipper.jpg" alt="Zipper"/></p></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/12">
+<h1>rebase</h1>
+
+<h2>is like a flux capacitor</h2></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/13">
+<p><img src="./file/merge_and_rebase/flux_capacitor.png" alt="Flux Capacitor"/></p></div>
+</div><div id="merge_and_rebase/0_intro" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/0_intro/14">
+<h1>that makes no sense</h1>
+
+<ul>
+<li>unless you understand the fundamentals</li>
+<li>...and you've seen <a href="http://www.imdb.com/title/tt0088763/">"Back to the Future"</a>
+</li>
+</ul></div>
+</div><div id="merge_and_rebase/0_intro" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/0_intro/15">
+<h1>this will feel tangential</h1>
+
+<h3>but stick with me</h3></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/1">
+<h1>there are 3 components</h1>
+
+<h2>to a git repository</h2>
+
+<h3>(basically)</h3></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/2">
+<h1>you often see two of them</h1>
+
+<p><img src="./file/merge_and_rebase/github_commit.jpg" alt="Project Commit"/></p></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/3">
+<h1>blobs, trees, commits</h1></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/1_git_components/4">
+<h1>blobs</h1>
+
+<h2>SHA1 hash of file size &amp; contents</h2>
+
+<h3>same content == same sha1 == same blob</h3>
+
+<ul>
+<li>(always)</li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/5">
+<h1>example</h1>
+
+<h3>(you can follow along at home)</h3></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide commandline incremental" data-transition="none"><div class="content commandline incremental" ref="merge_and_rebase/1_git_components/6">
+<pre><code><code class="command">$ mkdir new_project</code>
+<code class="command">$ cd new_project</code>
+<code class="command">$ mkdir directory_1</code>
+<code class="command">$ mkdir directory_2</code>
+<code class="result">
+</code><code class="command">$ echo 'Content of README' &gt; directory_1/README</code>
+<code class="command">$ echo 'Content of README' &gt; directory_2/README</code>
+<code class="result">
+</code><code class="command">$ git hash-object directory_1/README</code>
+<code class="result">d3f48b93b168b70f7bf91e27e6bbf0ef97d52821
+
+</code><code class="command">$ git hash-object directory_2/README</code>
+<code class="result">d3f48b93b168b70f7bf91e27e6bbf0ef97d52821
+
+</code><code class="command">$ # [note: created git repository w/ a single commit]</code>
+<code class="command">$ git cat-file blob d3f48b93</code>
+<code class="result">Content of README
+</code></code></pre></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/1_git_components/7">
+<p><img src="./file/merge_and_rebase/sha1s.png" alt="SHA1 Computation"/></p></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide bullets incremental" data-transition="none"><div class="content bullets incremental" ref="merge_and_rebase/1_git_components/8">
+<h1>blobs</h1>
+
+<h2>takeaway:</h2>
+
+<ul>
+<li>sha1 of file content</li>
+<li>duplicate file contents will have same sha1</li>
+<li>(that's important)</li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/9">
+<h1>
+<span style="color: #777; text-decoration: line-through;">blobs,</span> trees, commits</h1></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/10">
+<h1>trees</h1>
+
+<h2>think of them as directories</h2>
+
+<h3>(collectors of sub-nodes)</h3></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/1_git_components/11">
+<h1>each commit has one</h1>
+
+<h3>composed of either blobs or other trees</h3>
+
+<ul>
+<li>(sha1 is computed from sub-node sha1s &amp; filenames)</li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide commandline incremental small" data-transition="none"><div class="content commandline incremental small" ref="merge_and_rebase/1_git_components/12">
+<h1>in our example</h1>
+
+<pre><code><code class="command">$ git ls-tree  HEAD</code>
+<code class="result">040000 tree 10c195f4f039d79a0441fefb0e63e07d227edb89    directory_1
+040000 tree 10c195f4f039d79a0441fefb0e63e07d227edb89    directory_2
+            ^^^^^^^^^^^^^^ SAME??! ^^^^^^^^^^^^^^^^^    ^^^ DIFFERENT?
+
+</code><code class="command">$ git ls-tree 10c195f4f039d79a0441fefb0e63e07d227edb89</code>
+<code class="result">100644 blob d3f48b93b168b70f7bf91e27e6bbf0ef97d52821    README
+       ^^^^
+</code></code></pre></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/1_git_components/13">
+<h1>pop quiz</h1></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide commandline small" data-transition="none"><div class="content commandline small" ref="merge_and_rebase/1_git_components/14">
+<pre><code><code class="command">$ mkdir directory_3</code>
+<code class="result">
+</code><code class="command">$ echo 'Content of README' &gt; directory_3/different_file_name</code>
+<code class="result">                                         ^^^^^^ NOTE ^^^^^^^
+
+</code><code class="command">$ git add . &amp;&amp; git commit -a -m"Added new file in directory_3"</code>
+<code class="result">
+</code><code class="command">$ git ls-tree HEAD</code>
+<code class="result">040000 tree 10c195f4f039d79a0441fefb0e63e07d227edb89    directory_1
+040000 tree 10c195f4f039d79a0441fefb0e63e07d227edb89    directory_2
+040000 tree 56b93cce25073a26c67c07d7fe0b744668bf0d32    directory_3
+            ^^^^^^^^^^^^^^ DIFFERENT? ^^^^^^^^^^^^^^
+
+                              WHY?
+</code></code></pre></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide commandline incremental small" data-transition="none"><div class="content commandline incremental small" ref="merge_and_rebase/1_git_components/15">
+<h1>look at the trees</h1>
+
+<pre><code><code class="command">$ git ls-tree 10c195f4f039d79a0441fefb0e63e07d227edb89</code>
+<code class="result">100644 blob d3f48b93b168b70f7bf91e27e6bbf0ef97d52821    README
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</code><code class="command">$ git ls-tree 56b93cce25073a26c67c07d7fe0b744668bf0d32</code>
+<code class="result">100644 blob d3f48b93b168b70f7bf91e27e6bbf0ef97d52821    different_file_name
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^^^^^^^^^^^^^^^^^
+
+The tree-level sha1 takes the sub-component names into account...
+but the blob computation doesn't
+...it's only on file size/contents
+
+(i'm not sure about file mode...but you get the point)
+</code></code></pre></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/1_git_components/16">
+<h1>tree takeaways</h1>
+
+<ul>
+<li>basically directories...contents can be other trees or blobs</li>
+<li>sha1s computed off of sub-components' sha1s/names</li>
+<li>difference in tree sha1s means they have different content (or files)</li>
+<li>(that last one is important)</li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide incremental bullets" data-transition="none"><div class="content incremental bullets" ref="merge_and_rebase/1_git_components/17">
+<h1>
+<span style="color: #777; text-decoration: line-through;">blobs, trees,</span> commits</h1>
+
+<ul>
+<li>these are easy ;-)</li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide bullets incremental" data-transition="none"><div class="content bullets incremental" ref="merge_and_rebase/1_git_components/18">
+<h2>commits are composed of:</h2>
+
+<ul>
+<li>the (single) top-level tree sha1</li>
+<li>the name/email of the author</li>
+<li>the time</li>
+<li><span style="color: #777; font-size: 0.7em;">the 'parent' &amp; 'committer' may play in as well...not sure</span></li>
+<li><span style="color: #777; font-size: 0.7em;">(it really doesn't matter)</span></li>
+</ul></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/1_git_components/19">
+<h1>commits</h1>
+
+<h2>takeaway:</h2>
+
+<h3>changing any of the components results in a different commit id</h3>
+
+<h3>(which makes it a different commit to git)</h3></div>
+</div><div id="merge_and_rebase/1_git_components" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/1_git_components/20">
+<p><img src="./file/merge_and_rebase/commit_detail_visual.png" alt="Commit detail"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/2_merge_vs_rebase/1">
+<h2>back to zippers &amp; flux capacitors</h2></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/2">
+<h1>let's make an example</h1>
+
+<p><img src="./file/merge_and_rebase/commit_summary.jpg" alt="Commit summary"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/3">
+<p><img src="./file/merge_and_rebase/build_repo_images/1.png" alt="first commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/4">
+<p><img src="./file/merge_and_rebase/build_repo_images/2.png" alt="second commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/5">
+<p><img src="./file/merge_and_rebase/build_repo_images/3.png" alt="third commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/6">
+<p><img src="./file/merge_and_rebase/build_repo_images/4.png" alt="fourth commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/7">
+<p><img src="./file/merge_and_rebase/build_repo_images/5.png" alt="fifth commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/8">
+<p><img src="./file/merge_and_rebase/build_repo_images/6.png" alt="sixth commit"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/9">
+<h2>assume we are on master</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/on_master.png" alt="on master"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/2_merge_vs_rebase/10">
+<h2>and we merge in 'new_feature'</h2></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/11">
+<h2>our log looks like this:</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/merged.png" alt="merged"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/12">
+<h2>new merge commit added</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/merged_wtf.png" alt="merged wtf"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/13">
+<h2>technically, it's this</h2>
+
+<h3>(#7 has 2 parents)</h3>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/merged_technically.png" alt="merged technically"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/14">
+<h1>but go back to the log</h1></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide commandline small" data-transition="none"><div class="content commandline small" ref="merge_and_rebase/2_merge_vs_rebase/15">
+<pre><code><code class="command">$ git log --pretty=oneline</code>
+<code class="result">1732fbcdde81cb419b...   Merge branch 'new_feature' into og_master
+fd7e4d48a20a3f0dfe...   new_feature branch: updated directory_1/README  &lt;&lt;&lt;
+fccfb4cb17e63d89b2...   master branch: updated directory_2/README
+d0d98d0c1852d1ba4a...   master branch: updated directory_1/README
+a8f017105dfb3fcd88...   new_feature branch: added readme                &lt;&lt;&lt;
+388d29fe0ee5189be2...   master branch: Added directory_3
+406f42b33de76c99b5...   master branch: Initial commit
+</code></code></pre></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center smbullets incremental" data-transition="none"><div class="content center smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/16">
+<p><img src="./file/merge_and_rebase/build_repo_images/merged.png" alt="merged"/></p>
+
+<h2>like a zipper</h2>
+
+<ul>
+<li>kind of...right?</li>
+<li>(humor me)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/17">
+<h1>now...rebasing</h1></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/18">
+<h2>assume we're on 'new_feature' branch</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/on_new_feature.png" alt="on master"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide commandline" data-transition="none"><div class="content commandline" ref="merge_and_rebase/2_merge_vs_rebase/19">
+<h2>and we rebase on top of master</h2>
+
+<pre><code><code class="command">$ git rebase master</code>
+</code></pre></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/20">
+<h2>our log looks like this:</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/rebased.png" alt="merged"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/21">
+<h2>technically, it looks like this</h2>
+
+<p><img src="./file/merge_and_rebase/build_repo_images/rebased_technically.png" alt="merged"/></p></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/22">
+<h1>go back to the log again</h1></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide commandline small" data-transition="none"><div class="content commandline small" ref="merge_and_rebase/2_merge_vs_rebase/23">
+<pre><code><code class="command">$ git log --pretty=oneline</code>
+<code class="result">0ddbe1239f5e32ee18... new_feature branch: updated directory_1/README &lt;&lt;&lt;
+31b9f28fe243aa8c2d... new_feature branch: added readme               &lt;&lt;&lt;
+fccfb4cb17e63d89b2... master: updated directory_2/README
+d0d98d0c1852d1ba4a... master: updated directory_1/README
+388d29fe0ee5189be2... Added directory_3
+406f42b33de76c99b5... Initial commit
+</code></code></pre></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/24">
+<h2>notable items</h2>
+
+<ul>
+<li>'new_feature' commits are together in the log (nice)</li>
+<li>'new_feature' commits have different sha1s now</li>
+<li>(that last one is important ;-))</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/2_merge_vs_rebase/25">
+<h2>different sha1s are different commits to git</h2>
+
+<h3>(therein lies the rub with rebasing)</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/26">
+<h2>never rebase on shared commits</h2>
+
+<h3>(ever)</h3>
+
+<ul>
+<li>(that's what merging is for)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/27">
+<h1>doing so gives the finger</h1>
+
+<h2>to everyone else on the project</h2>
+
+<ul>
+<li>(and is a huge pain to clean up)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide " data-transition="none"><div class="content " ref="merge_and_rebase/2_merge_vs_rebase/28">
+<h1>however</h1>
+
+<h3>don't just merge because it's easy</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/29">
+<h2>merging generally complicates reading the log</h2>
+
+<ul>
+<li>(which sucks)</li>
+<li>(if you pay attention to the repository log)</li>
+<li>(which you do, right?)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center commandline" data-transition="none"><div class="content center commandline" ref="merge_and_rebase/2_merge_vs_rebase/30">
+<h1>my workflow</h1>
+
+<h2>branch off of master</h2>
+
+<h3>$ git checkout -b new<em>feature</em>branch</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide smbullets incremental" data-transition="none"><div class="content smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/31">
+<h1>commit, commit, commit</h1>
+
+<ul>
+<li>(on new<em>feature</em>branch)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center commandline" data-transition="none"><div class="content center commandline" ref="merge_and_rebase/2_merge_vs_rebase/32">
+<h2>frequently switch to master, pull in recent changes</h2>
+
+<h3>$ git checkout master</h3>
+
+<h3>$ git pull</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/33">
+<h2>rebase off of your up-to-date master branch</h2>
+
+<h3>$ git checkout new<em>feature</em>branch</h3>
+
+<h3>$ git rebase master</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center smbullets incremental" data-transition="none"><div class="content center smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/34">
+<h1>when feature is complete</h1>
+
+<h3>repeat the pull/rebase process</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center" data-transition="none"><div class="content center" ref="merge_and_rebase/2_merge_vs_rebase/35">
+<h1>merge changes into master</h1>
+
+<h3>$ git checkout master</h3>
+
+<h3>$ git merge new<em>feature</em>branch</h3></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center smbullets incremental" data-transition="none"><div class="content center smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/36">
+<h1>if you have conflicts...</h1>
+
+<ul>
+<li>(during the rebase process)</li>
+</ul></div>
+</div><div id="merge_and_rebase/2_merge_vs_rebase" class="slide center smbullets incremental" data-transition="none"><div class="content center smbullets incremental" ref="merge_and_rebase/2_merge_vs_rebase/37">
+<h1>edit conflicting files and run:</h1>
+
+<h3>$ git add [conflicting<em>file</em>name]</h3>
+
+<h3>$ git rebase --continue</h3>
+
+<ul>
+<li>(this should be pretty easy/rare if you pull often)</li>
+<li>(...like <a href="http://twitter.com/roykolak">roy</a>)</li>
+</ul></div>
+</div><div id="questions/0_questions" class="slide " data-transition="none"><div class="content " ref="questions/0_questions/1">
+<h1>questions?</h1></div>
+</div><div id="questions/0_questions" class="slide " data-transition="none">
+  <div class="content " ref="questions/0_questions/2">
+<div style="padding-bottom: 1em; font-size: 2.5em; font-weight: bold;">Credits</div>
+
+<p><span style="font-size: 1.0em; font-weight: bold;">Images used</span><br>
+Zipper: <a href="http://bit.ly/dxLwNg">http://bit.ly/dxLwNg</a> (slightly modified)<br>
+Flux Capacitor: <a href="http://bit.ly/c1FMNt">http://bit.ly/c1FMNt</a></br>
+
+<hr><p><span style="font-size: 1.0em; font-weight: bold;">Reference</span><br><a href="http://bit.ly/8RBzB">Git from the Bottom Up PDF, John Wiegly</a>
+<a href="http://git-scm.com/">git-scm.com</a>
+<a href="http://gitcasts.com/">gitcasts.com</a></br></p>
+</hr>
+</br></p></div>
+</div><div id="questions/0_questions" class="slide center" data-transition="none"><div class="content center" ref="questions/0_questions/3">
+<h1>thanks</h1></div>
+</div></div>
+<div id="pauseScreen">
+  PAUSED
+</div>
+
+</body>
+</html>
